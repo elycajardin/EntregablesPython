@@ -1,1 +1,20 @@
+# RETO 11 - NIVEL INTERMEDIO - AVANZADO
+
+Una empresa quiere gestionar su cartera de clientes. Escribe un programa que guarde los clientes en un diccionario u objeto literal en el que disponga de:
+    - NIF (string)
+    - Nombre (string)
+    - Apellidos (string)
+    - Teléfono (string)
+    - Email (string)
+    - Preferente (boolean)
+
+El programa debe mostrar las siguientes opciones para que escoja el usuario:
+    - Añadir un cliente
+    - Eliminar cliente por NIF
+    - Mostrar Cliente por NIF
+    - Listar TODOS los clientes
+    - Mostrar ÚNICAMENTE los clientes preferentes
+    - Finalizar Programa
+
+Enlace: https://masajo.gitbook.io/python/retos-python#reto-11-1
 
