@@ -44,15 +44,18 @@ discos_dict = [{
     'Genre': 'Death Metal'
 }]
 
-print('Selecciona un album del 1 al 7')
+print('Bienvenido a la tienda de discos')
+print('Esta es la lista de albums disponibles: ', discos_dict)
+
+print('Para comprar, selecciona un album del 1 al 7')
 Index = int(input()) - 1
 
-print('Si es correcta tu selección, pulsa 0 para continuar con tu compra')
+print('Has elegido el album', discos_dict[Index])
+print('Si es correcta tu selección, pulsa 0 para finalizar con tu compra')
 
 Validate = int(input())
 
 CurrentItem = discos_dict[Index]
-print(CurrentItem)
 
 Date = date.today()
 
